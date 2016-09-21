@@ -14,7 +14,7 @@
 /*: question1
  ### 1. Create a tuple to represent a person! The tuple should have a person's name in the first field and their age in the second field. Define the tuple as a variable named `person`.
  */
-// write your code here
+var person = (name: "Felicity", age: 24)
 
 
 
@@ -26,7 +26,7 @@
 /*: question2
  ### 2. Print out "<Name> is <Age> years old" using the tuple you created in Question 1.
  */
-// write your code here
+print("\(person.name) is \(person.age) years old")
 
 
 
@@ -38,7 +38,7 @@
 /*: question3
  ### 3. It is the person's birthday! Increment the person's age by one year that you created in Question 1.
  */
-// write your code here
+person.age = person.age + 1
 
 
 
@@ -50,8 +50,7 @@
 /*: question4
  ### 4. Print out "Happy <Age> birthday, <Name>!" using the `person` variable.
  */
-// write your code here
-
+print("Happy \(person.age)th birthday, \(person.name)!")
 
 
 
@@ -62,7 +61,7 @@
 /*: question5
  ### 5. Create another person variable called `someone` using _named_ fields for the name and age.
  */
-// write your code here
+var person2 = (name: "Tiffany", age: 11)
 
 
 
@@ -76,7 +75,7 @@
  */
 // write your code here
 
-
+print("\(person2.name) is \(person2.age) years old")
 
 
 
@@ -88,7 +87,7 @@
 // write your code here
 
 
-
+person2.age = person2.age + 1
 
 
 
@@ -99,7 +98,7 @@
 // write your code here
 
 
-
+print("Happy \(person2.age)th birthday, \(person2.name)!")
 
 
 
@@ -111,7 +110,7 @@
 // write your code here
 
 
-
+let human = (name: "human", age: 100)
 
 
 
@@ -121,7 +120,7 @@
  ### 10. Can you change `human`'s age? Why or why not?
  */
 
-
+\\can't change because created a constant var with let 
 
 
 
